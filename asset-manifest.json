@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Math-Magiians-Raect/static/css/main.ddd8bbeb.chunk.css",
+    "main.js": "/Math-Magiians-Raect/static/js/main.27546898.chunk.js",
+    "main.js.map": "/Math-Magiians-Raect/static/js/main.27546898.chunk.js.map",
+    "runtime-main.js": "/Math-Magiians-Raect/static/js/runtime-main.25c20603.js",
+    "runtime-main.js.map": "/Math-Magiians-Raect/static/js/runtime-main.25c20603.js.map",
+    "static/js/2.39630860.chunk.js": "/Math-Magiians-Raect/static/js/2.39630860.chunk.js",
+    "static/js/2.39630860.chunk.js.map": "/Math-Magiians-Raect/static/js/2.39630860.chunk.js.map",
+    "static/js/3.4e63a0c8.chunk.js": "/Math-Magiians-Raect/static/js/3.4e63a0c8.chunk.js",
+    "static/js/3.4e63a0c8.chunk.js.map": "/Math-Magiians-Raect/static/js/3.4e63a0c8.chunk.js.map",
+    "index.html": "/Math-Magiians-Raect/index.html",
+    "static/css/main.ddd8bbeb.chunk.css.map": "/Math-Magiians-Raect/static/css/main.ddd8bbeb.chunk.css.map",
+    "static/js/2.39630860.chunk.js.LICENSE.txt": "/Math-Magiians-Raect/static/js/2.39630860.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Math-Magiians-Raect/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25c20603.js",
+    "static/js/2.39630860.chunk.js",
+    "static/css/main.ddd8bbeb.chunk.css",
+    "static/js/main.27546898.chunk.js"
+  ]
+}
