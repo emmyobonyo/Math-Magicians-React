@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://emmyobonyo.github.io/leaderboard/)
+[Live Demo Link](https://emmyobonyo.github.io/Math-Magiians-Raect/)
 
 # Set Up
 ## Clone This Repository
