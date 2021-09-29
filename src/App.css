@@ -10,7 +10,7 @@ body {
 }
 
 .calculator-screen {
-  background-color: grey;
+  background-color:#858693;
   text-align: right;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .calculator-button {
-  background-color: lightgray;
+  background-color: #e0e0e0;
   border: 1px solid black;
   padding: 20px;
   font-size: 30px;
@@ -45,7 +45,7 @@ body {
 }
 
 .calculator-button-bottom {
-  background-color: lightgray;
+  background-color: #e0e0e0;
   border: 1px solid black;
   padding: 20px;
   font-size: 30px;
