@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Math-Magiians-Raect/static/css/main.8142f5b0.chunk.css",
-    "main.js": "/Math-Magiians-Raect/static/js/main.811ac3d4.chunk.js",
-    "main.js.map": "/Math-Magiians-Raect/static/js/main.811ac3d4.chunk.js.map",
+    "main.css": "/Math-Magiians-Raect/static/css/main.7a10e85e.chunk.css",
+    "main.js": "/Math-Magiians-Raect/static/js/main.ceb22bc1.chunk.js",
+    "main.js.map": "/Math-Magiians-Raect/static/js/main.ceb22bc1.chunk.js.map",
     "runtime-main.js": "/Math-Magiians-Raect/static/js/runtime-main.981a7c3b.js",
     "runtime-main.js.map": "/Math-Magiians-Raect/static/js/runtime-main.981a7c3b.js.map",
-    "static/js/2.0a76c52b.chunk.js": "/Math-Magiians-Raect/static/js/2.0a76c52b.chunk.js",
-    "static/js/2.0a76c52b.chunk.js.map": "/Math-Magiians-Raect/static/js/2.0a76c52b.chunk.js.map",
+    "static/js/2.f67572c6.chunk.js": "/Math-Magiians-Raect/static/js/2.f67572c6.chunk.js",
+    "static/js/2.f67572c6.chunk.js.map": "/Math-Magiians-Raect/static/js/2.f67572c6.chunk.js.map",
     "index.html": "/Math-Magiians-Raect/index.html",
-    "static/css/main.8142f5b0.chunk.css.map": "/Math-Magiians-Raect/static/css/main.8142f5b0.chunk.css.map",
-    "static/js/2.0a76c52b.chunk.js.LICENSE.txt": "/Math-Magiians-Raect/static/js/2.0a76c52b.chunk.js.LICENSE.txt"
+    "static/css/main.7a10e85e.chunk.css.map": "/Math-Magiians-Raect/static/css/main.7a10e85e.chunk.css.map",
+    "static/js/2.f67572c6.chunk.js.LICENSE.txt": "/Math-Magiians-Raect/static/js/2.f67572c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.981a7c3b.js",
-    "static/js/2.0a76c52b.chunk.js",
-    "static/css/main.8142f5b0.chunk.css",
-    "static/js/main.811ac3d4.chunk.js"
+    "static/js/2.f67572c6.chunk.js",
+    "static/css/main.7a10e85e.chunk.css",
+    "static/js/main.ceb22bc1.chunk.js"
   ]
 }
