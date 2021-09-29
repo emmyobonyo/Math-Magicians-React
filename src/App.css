@@ -6,7 +6,6 @@ body {
   width: 50%;
   margin: auto;
   margin-top: 50px;
-  border: 3px solid black;
 }
 
 .calculator-screen {
@@ -29,7 +28,7 @@ body {
 
 .calculator-button {
   background-color: #e0e0e0;
-  border: 1px solid black;
+  border: 1px solid #CaCaCa;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -46,7 +45,7 @@ body {
 
 .calculator-button-bottom {
   background-color: #e0e0e0;
-  border: 1px solid black;
+  border: 1px solid #CaCaCa;
   padding: 20px;
   font-size: 30px;
   text-align: center;
