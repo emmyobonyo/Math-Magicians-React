@@ -1,14 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MATH MAGICIANS WEB APP
+# Math Magicians
 
-> A Wep App that displays scores from an API and scores added by a User,
+> One paragraph statement about the project.
 
-- A User can do simple Math calculations
+![screenshot](./public/sss.png)
+
+A Web App that allows Math geeks to do simple calculations. Because they don't have calculators on their phones.
 
 ## Built With
 
-- HTML, CSS, Javascript
+- JSX, CSS
 - React
 
 ## Live Demo
@@ -25,34 +27,21 @@ $ cd Math-Magiians-Raect
 ## Run Project
 ```
 $ npm install
-$ git checkout set-up
-$ npm run start
+$ git checkout feature/components
+$ npm start
 ```
-
-## Authors
 
 👤 **Emmanuel Obonyo**
 
-- GitHub: [@emmyobonyo](https://github.com/emmyobonyp)
-- Twitter: [@temmyobonyo](https://twitter.com/emmyobonyo)
-- LinkedIn: [Emmanuel Obonyo](https://https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
-
-<!-- ## 🤝 Contributing
+- GitHub: [@emmyobonyo](https://github.com/emmyobonyo)
+- Twitter: [@emmyobonyo](https://twitter.com/emmyobonyo)
+- LinkedIn: [Emmanuel Obonyo](https://www.linkedin.com/in/emmanuel-obonyo-3728a2200/)
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/). -->
+Feel free to check the [issues page](https://github.com/emmyobonyo/Math-Magiians-Raect/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-<!-- ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc -->
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
