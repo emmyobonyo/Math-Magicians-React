@@ -1,7 +1,7 @@
 import React from 'react';
 import Calculator from './components/calculator';
 import './App.css';
-// import Calculate from './logic/calculate';
+import calculate from './logic/calculate';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class App extends React.Component {
     const { total } = this.state;
     return (
       <div>
-        <Calculator total={total} />
+        <Calculator total={total} calculate={calculate} />
       </div>
     );
   }
