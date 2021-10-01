@@ -7,33 +7,38 @@ export default class Calculator extends React.Component {
   }
 
   render() {
+    /* eslint-disable react/prop-types */
+    const {
+      total, next, operation, onClickHandler,
+    } = this.props;
+    /* eslint-disable react/prop-types */
     return (
       <div className="calculator">
         <div className="calculator-screen">
-          <p className="calculator-digits">0</p>
+          <p className="calculator-digits">{`${total} ${next} ${operation}`}</p>
         </div>
         <div className="calculator-buttons">
-          <div className="calculator-button">AC</div>
-          <div className="calculator-button">+/-</div>
-          <div className="calculator-button">%</div>
-          <div className="calculator-button orange-button">&#247;</div>
-          <div className="calculator-button">7</div>
-          <div className="calculator-button">8</div>
-          <div className="calculator-button">9</div>
-          <div className="calculator-button orange-button">&times;</div>
-          <div className="calculator-button">4</div>
-          <div className="calculator-button">5</div>
-          <div className="calculator-button">6</div>
-          <div className="calculator-button orange-button">&#8722;</div>
-          <div className="calculator-button">1</div>
-          <div className="calculator-button">2</div>
-          <div className="calculator-button">3</div>
-          <div className="calculator-button orange-button">+</div>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>AC</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>+/-</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>%</button>
+          <button className="calculator-button orange-button" type="button" onClick={onClickHandler}>/</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>7</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>8</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>9</button>
+          <button className="calculator-button orange-button" type="button" onClick={onClickHandler}>x</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>4</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>5</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>6</button>
+          <button className="calculator-button orange-button" type="button" onClick={onClickHandler}>-</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>1</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>2</button>
+          <button className="calculator-button" type="button" onClick={onClickHandler}>3</button>
+          <button className="calculator-button orange-button" type="button" onClick={onClickHandler}>+</button>
         </div>
         <div className="calculator-buttons-bottom">
-          <div className="calculator-button-bottom button-one">0</div>
-          <div className="calculator-button-bottom button-two">.</div>
-          <div className="calculator-button-bottom button-three orange-button-bottom">=</div>
+          <button className="calculator-button-bottom button-one" type="button" onClick={onClickHandler}>0</button>
+          <button className="calculator-button-bottom button-two" type="button" onClick={onClickHandler}>.</button>
+          <button className="calculator-button-bottom button-three orange-button-bottom" type="button" onClick={onClickHandler}>=</button>
         </div>
       </div>
     );
