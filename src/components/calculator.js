@@ -7,9 +7,11 @@ export default class Calculator extends React.Component {
   }
 
   render() {
+    /* eslint-disable react/prop-types */
     const {
       total, next, operation, onClickHandler,
     } = this.props;
+    /* eslint-disable react/prop-types */
     return (
       <div className="calculator">
         <div className="calculator-screen">
