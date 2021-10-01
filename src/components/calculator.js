@@ -7,9 +7,7 @@ export default class Calculator extends React.Component {
   }
 
   render() {
-    const {
-      total, next, operation, onClickHandler,
-    } = this.props;
+    const { total, next, operation, onClickHandler } = this.props;
     return (
       <div className="calculator">
         <div className="calculator-screen">
