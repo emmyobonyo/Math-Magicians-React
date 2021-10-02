@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div>
         <Calculator
-          total={total !== null ? total : 0}
+          total={total !== null ? total : ''}
           next={next !== null ? next : ''}
           operation={operation !== null ? operation : ''}
           onClickHandler={this.handleEvent}
