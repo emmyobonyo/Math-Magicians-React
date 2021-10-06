@@ -5,7 +5,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import Calculator from './calculator';
+import CalculatorPage from './CalculatorPage';
 import Quote from './Quote';
 import Home from './Home';
 
@@ -31,7 +31,7 @@ function Navigation() {
         </nav>
         <Switch>
           <Route path="/calculator">
-            <Calculator />
+            <CalculatorPage />
           </Route>
           <Route path="/quote">
             <Quote />

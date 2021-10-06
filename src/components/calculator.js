@@ -17,7 +17,7 @@ function Calculator() {
   return (
     <div className="calculator">
       <div className="calculator-screen">
-        <p className="calculator-digits">{`${total !== null ? total : ''} ${next !== null ? next : ''} ${operation !== null ? operation : ''}`}</p>
+        <p className="calculator-digits">{`${total !== null ? total : ''} ${operation !== null ? operation : ''} ${next !== null ? next : ''}`}</p>
       </div>
       <div className="calculator-buttons">
         <button className="calculator-button" type="button" onClick={onClickHandler}>AC</button>
