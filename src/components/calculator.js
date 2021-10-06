@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-function Calculator({
-  total, operation, next, onClickHandler,
-}) {
+function Calculator() {
+  const [state, setState] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
+
+  const onClickHandler = (e) => {
+    setState({ ...state, ...calculate(state, e.target.innerHTML) });
+  };
+
+  const { total, next, operation } = state;
+
   return (
     <div className="calculator">
       <div className="calculator-screen">
-        <p className="calculator-digits">{`${total} ${operation} ${next}`}</p>
+        <p className="calculator-digits">{`${total !== null ? total : ''} ${next !== null ? next : ''} ${operation !== null ? operation : ''}`}</p>
       </div>
       <div className="calculator-buttons">
         <button className="calculator-button" type="button" onClick={onClickHandler}>AC</button>
