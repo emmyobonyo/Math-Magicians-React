@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  margin: auto;
 }
 
 .calculator {
@@ -53,4 +54,34 @@ body {
 
 .orange-button-bottom {
   background-color: #f5913e;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 0 30px;
+}
+
+.navigation-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation-links li {
+  float: left;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  color: white;
 }

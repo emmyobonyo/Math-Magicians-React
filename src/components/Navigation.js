@@ -13,9 +13,11 @@ function Navigation() {
   return (
     <Router>
       <div>
-        <nav>
-          <h3>Math Magicians</h3>
-          <ul>
+        <nav className="navigation">
+          <h3 className="logo">
+            <Link to="/">Math Magicians</Link>
+          </h3>
+          <ul className="navigation-links">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -26,18 +28,18 @@ function Navigation() {
               <Link to="/quote">Quote</Link>
             </li>
           </ul>
-          <Switch>
-            <Route path="/calculator">
-              <Calculator />
-            </Route>
-            <Route path="/quote">
-              <Quote />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
         </nav>
+        <Switch>
+          <Route path="/calculator">
+            <Calculator />
+          </Route>
+          <Route path="/quote">
+            <Quote />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
