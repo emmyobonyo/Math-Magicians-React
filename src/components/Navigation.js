@@ -21,7 +21,7 @@ function Navigation() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="link-borders">
               <Link to="/calculator">Calculator</Link>
             </li>
             <li>

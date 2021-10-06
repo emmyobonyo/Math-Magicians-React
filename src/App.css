@@ -73,7 +73,7 @@ body {
 
 .navigation-links li {
   float: left;
-  margin-left: 20px;
+  padding: 0 20px;
 }
 
 a {
@@ -84,4 +84,14 @@ a {
 
 .logo {
   color: white;
+}
+
+.link-borders {
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+.home-div {
+  width: 95%;
+  margin: auto;
 }
