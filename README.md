@@ -4,9 +4,12 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./public/sss.png)
+![Home Page](./public/home.png)
+![Calculator Page](./public/calculator.png)
+![Quotes Page](./public/quote.png)
 
 A Web App that allows Math geeks to do simple calculations. Because they don't have calculators on their phones.
+Users can also get motivational quotes regarding programming in the programming page. This is to keep them moving.
 
 ## Built With
 
@@ -15,7 +18,7 @@ A Web App that allows Math geeks to do simple calculations. Because they don't h
 
 ## Live Demo
 
-[Live Demo Link](https://emmyobonyo.github.io/Math-Magiians-Raect/)
+[Live Demo Link](https://emmyobonyo.github.io/Math-Magicians-React/)
 
 # Set Up
 ## Clone This Repository
