@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Calculator from './components/calculator';
 import './App.css';
 import calculate from './logic/calculate';
+import Navigation from './components/Navigation';
 
 function App() {
   const [state, setState] = useState({
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div>
+      <Navigation />
       <Calculator
         total={total !== null ? total : ''}
         next={next !== null ? next : ''}
