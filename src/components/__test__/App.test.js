@@ -19,49 +19,48 @@ it('renders without crashing', () => {
 it('matches snapshot', () => {
   const tree = renderer.create(<App />).toJSON();
   expect(tree).toMatchSnapshot();
-})
+});
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<CalculatorPage />, div);
   ReactDOM.unmountComponentAtNode(div);
-})
+});
 
 it('matches snapshot', () => {
   const tree = renderer.create(<CalculatorPage />).toJSON();
   expect(tree).toMatchSnapshot();
-})
+});
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Navigation />, div);
   ReactDOM.unmountComponentAtNode(div);
-})
+});
 
 it('matches snapshot', () => {
   const tree = renderer.create(<Navigation />).toJSON();
   expect(tree).toMatchSnapshot();
-})
+});
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Home />, div);
   ReactDOM.unmountComponentAtNode(div);
-})
+});
 
 it('matches snapshot', () => {
   const tree = renderer.create(<Home />).toJSON();
   expect(tree).toMatchSnapshot();
-})
+});
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Quote />, div);
   ReactDOM.unmountComponentAtNode(div);
-})
+});
 
 it('should call a click event', () => {
   render(<Calculator />);
-  expect(userEvent.click(screen.getByTestId('ac'))).toHaveBeenCalled;
-})
-
+  return expect(userEvent.click(screen.getByTestId('ac'))).toHaveBeenCalled;
+});
