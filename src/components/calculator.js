@@ -20,7 +20,7 @@ function Calculator() {
         <p className="calculator-digits">{`${total !== null ? total : ''} ${operation !== null ? operation : ''} ${next !== null ? next : ''}`}</p>
       </div>
       <div className="calculator-buttons">
-        <button className="calculator-button" type="button" onClick={onClickHandler}>AC</button>
+        <button className="calculator-button" type="button" onClick={onClickHandler} data-testid="ac">AC</button>
         <button className="calculator-button" type="button" onClick={onClickHandler}>+/-</button>
         <button className="calculator-button" type="button" onClick={onClickHandler}>%</button>
         <button className="calculator-button orange-button" type="button" onClick={onClickHandler}>/</button>

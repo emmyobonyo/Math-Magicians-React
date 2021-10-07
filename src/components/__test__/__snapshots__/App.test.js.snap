@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="navigation"
+    >
+      <h3
+        className="logo"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Math Magicians
+        </a>
+      </h3>
+      <ul
+        className="navigation-links"
+      >
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="link-borders"
+        >
+          <a
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="home-div"
+    >
+      <h2>
+        Welcome to our page
+      </h2>
+      <p>
+        Hello there, glad you stopped by. We appreciate the fact that you have a calculator on your phone -- probably a better one -- but you decided to spend some data to check out our site. Or Maybe your phone just run out of battery? Either way we are glad that you came and hopefully your phone runs out of battery more often.
+      </p>
+      <p>
+        So to the basics. You can perfom basic mathematical calculations (Additions, Divisions, Multiplication, Modulus, and Subtraction). What about the other Arithmetic operations? You may have to buy an actual calculator for that.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 2`] = `
+<div
+  className="calculator-page"
+>
+  <div>
+    <h2
+      className="calculator-page-heading"
+    >
+      Let us do some Math
+    </h2>
+    <p>
+      These are the calculations that you can perform
+    </p>
+    <ul
+      className="calculator-links"
+    >
+      <li
+        className="calculator-links-li"
+      >
+        <b>
+          Addition: 
+        </b>
+        Adding items together.
+      </li>
+      <li
+        className="calculator-links-li"
+      >
+        <b>
+          Subtraction: 
+        </b>
+        Subtracting things together.
+      </li>
+      <li
+        className="calculator-links-li"
+      >
+        <b>
+          Multiplication: 
+        </b>
+        Multiplying things together.
+      </li>
+      <li
+        className="calculator-links-li"
+      >
+        <b>
+          Division: 
+        </b>
+        Divide things togther.
+      </li>
+      <li
+        className="calculator-links-li"
+      >
+        <b>
+          Modulus: 
+        </b>
+        Multiply things together.
+      </li>
+    </ul>
+  </div>
+  <div
+    className="calculator"
+  >
+    <div
+      className="calculator-screen"
+    >
+      <p
+        className="calculator-digits"
+      >
+        0  
+      </p>
+    </div>
+    <div
+      className="calculator-buttons"
+    >
+      <button
+        className="calculator-button"
+        data-testid="ac"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="calculator-button orange-button"
+        onClick={[Function]}
+        type="button"
+      >
+        /
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="calculator-button orange-button"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="calculator-button orange-button"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="calculator-button"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="calculator-button orange-button"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="calculator-buttons-bottom"
+    >
+      <button
+        className="calculator-button-bottom button-one"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="calculator-button-bottom button-two"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="calculator-button-bottom button-three orange-button-bottom"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 3`] = `
+<div>
+  <nav
+    className="navigation"
+  >
+    <h3
+      className="logo"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Math Magicians
+      </a>
+    </h3>
+    <ul
+      className="navigation-links"
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="link-borders"
+      >
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="home-div"
+  >
+    <h2>
+      Welcome to our page
+    </h2>
+    <p>
+      Hello there, glad you stopped by. We appreciate the fact that you have a calculator on your phone -- probably a better one -- but you decided to spend some data to check out our site. Or Maybe your phone just run out of battery? Either way we are glad that you came and hopefully your phone runs out of battery more often.
+    </p>
+    <p>
+      So to the basics. You can perfom basic mathematical calculations (Additions, Divisions, Multiplication, Modulus, and Subtraction). What about the other Arithmetic operations? You may have to buy an actual calculator for that.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 4`] = `
+<div
+  className="home-div"
+>
+  <h2>
+    Welcome to our page
+  </h2>
+  <p>
+    Hello there, glad you stopped by. We appreciate the fact that you have a calculator on your phone -- probably a better one -- but you decided to spend some data to check out our site. Or Maybe your phone just run out of battery? Either way we are glad that you came and hopefully your phone runs out of battery more often.
+  </p>
+  <p>
+    So to the basics. You can perfom basic mathematical calculations (Additions, Divisions, Multiplication, Modulus, and Subtraction). What about the other Arithmetic operations? You may have to buy an actual calculator for that.
+  </p>
+</div>
+`;
