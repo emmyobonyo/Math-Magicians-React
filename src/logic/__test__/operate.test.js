@@ -18,3 +18,6 @@ test('subtract 2-1 to equal 1', () => {
   test('Modulus 11 % 2 to equal 1', () => {
     expect(operate(11, 2, '%')).toBe('1');
   });
+  test('throw an error if passed a wrong operation', () => {
+    expect(() => operate(2, 4, ')')).toThrow();
+  });
