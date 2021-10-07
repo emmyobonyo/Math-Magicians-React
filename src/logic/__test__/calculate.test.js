@@ -21,8 +21,8 @@ test('to see that double decimals are not added', () => {
   }
   expect(calculate(obj, '.')).toEqual({
     ...obj
-  })
-})
+  });
+});
 
 test('to see that the next variable is given a value', () => {
   const obj = {
@@ -32,5 +32,18 @@ test('to see that the next variable is given a value', () => {
   }
   expect(calculate(obj, '.')).toEqual({
     ...obj, next: `${obj.next}.`,
+  });
+});
+
+test('to see that a decimal is added if an operation is added', () => {
+  const obj = {
+    total: null,
+    next: '0',
+    operation: '+'
+  }
+  expect(calculate(obj, '.')).toEqual({
+    total: null,
+    next: '0.',
+    operation: '+'
   })
 })
