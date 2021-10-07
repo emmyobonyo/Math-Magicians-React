@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
-import { screen, render } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import App from '../../App';
 import CalculatorPage from '../CalculatorPage';
 import Navigation from '../Navigation';
 import Home from '../Home';
 import Quote from '../Quote';
-import Calculator from '../calculator';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -58,9 +55,4 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Quote />, div);
   ReactDOM.unmountComponentAtNode(div);
-});
-
-it('should call a click event', () => {
-  render(<Calculator />);
-  return expect(userEvent.click(screen.getByTestId('ac'))).toHaveBeenCalled;
 });
