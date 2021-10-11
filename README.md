@@ -18,7 +18,10 @@ Users can also get motivational quotes regarding programming in the programming 
 
 ## Live Demo
 
-[Live Demo Link](https://emmyobonyo.github.io/Math-Magicians-React/)
+- Netlify: https://app.netlify.com/sites/math-magicians-react/overview
+- Heroku: https://math-magicians-js.herokuapp.com/
+
+
 
 # Set Up
 ## Clone This Repository
