@@ -21,7 +21,9 @@ function Home() {
         Arithmetic operations? You may have to buy an actual
         calculator for that.
       </p>
-
+      <p>
+        This pargraph is just to ensure that the dev server is working
+      </p>
     </div>
   );
 }
