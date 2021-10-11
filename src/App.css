@@ -1,4 +1,5 @@
 body {
+  font-family: 'Courier New', Courier, monospace;
   background-color: white;
   margin: auto;
 }
@@ -81,8 +82,12 @@ a {
   font-weight: bold;
 }
 
-.logo {
-  color: white;
+a:hover {
+  color: lightgreen;
+}
+
+.logo:hover {
+  color: blue;
 }
 
 .link-borders {
