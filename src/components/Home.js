@@ -21,7 +21,7 @@ function Home() {
         Arithmetic operations? You may have to buy an actual
         calculator for that.
       </p>
-
+      <p>This is to check that the server is working</p>
     </div>
   );
 }
