@@ -18,10 +18,7 @@ Users can also get motivational quotes regarding programming in the programming 
 
 ## Live Demo
 
-- Netlify: https://math-magicians-react.netlify.app/
-- Heroku: https://math-magicians-js.herokuapp.com/
-
-
+[Live Demo Link](https://math-magicians-reactjs.netlify.app/)
 
 # Set Up
 ## Clone This Repository
