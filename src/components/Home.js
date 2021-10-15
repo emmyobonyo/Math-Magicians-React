@@ -22,7 +22,7 @@ function Home() {
         calculator for that.
       </p>
       <p>Development server check</p>
-      <p>Another paragraph just to make sure the dev server is working</p>
+      <p>Hopefully the server is working as expected</p>
     </div>
   );
 }
