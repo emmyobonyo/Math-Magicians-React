@@ -18,7 +18,7 @@ Users can also get motivational quotes regarding programming in the programming 
 
 ## Live Demo
 
-[Live Demo Link](https://emmyobonyo.github.io/Math-Magicians-React/)
+[Live Demo Link](https://math-magicians-reactjs.netlify.app/)
 
 # Set Up
 ## Clone This Repository
